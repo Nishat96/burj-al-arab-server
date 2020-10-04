@@ -4,8 +4,6 @@ const cors = require('cors');
 var admin = require("firebase-admin");
 require('dotenv').config()
 console.log(process.env.DB_PASS)
-const port = 5000
-
 
 
 const app = express()
@@ -13,6 +11,8 @@ const app = express()
 
 app.use(cors());
 app.use(bodyParser.json());
+
+const port = 5000
 
 app.get('/', (req, res) => {
   res.send('hello from db')
