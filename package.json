@@ -19,5 +19,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishat96/burj-al-arab-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nishat96/burj-al-arab-server/issues"
+  },
+  "homepage": "https://github.com/Nishat96/burj-al-arab-server#readme"
 }
