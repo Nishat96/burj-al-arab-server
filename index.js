@@ -6,9 +6,7 @@ require('dotenv').config()
 console.log(process.env.DB_PASS)
 const port = 5000
 
-app.get('/', (req, res) => {
-  res.send('hello from db')
-})
+
 
 const app = express()
 
@@ -16,7 +14,9 @@ const app = express()
 app.use(cors());
 app.use(bodyParser.json());
 
-
+app.get('/', (req, res) => {
+  res.send('hello from db')
+})
 
 
 var serviceAccount = require("./configs/burj-al-arab-d3b5a-firebase-adminsdk-vdbrs-dc34a7085f.json");
