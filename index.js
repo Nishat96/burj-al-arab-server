@@ -23,7 +23,7 @@ var serviceAccount = require("./configs/burj-al-arab-d3b5a-firebase-adminsdk-vdb
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: FIRE_DB
+  databaseURL: "https://burj-al-arab-d3b5a.firebaseio.com"
 });
 
 
