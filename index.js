@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 })
 
 
-var serviceAccount = require("./configs/burj-al-arab-d3b5a-firebase-adminsdk-vdbrs-dc34a7085f.json");
+var serviceAccount = require("./Configs/burj-al-arab-d3b5a-firebase-adminsdk-vdbrs-dc34a7085f.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
